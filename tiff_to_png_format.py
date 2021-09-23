@@ -1,4 +1,4 @@
-from PIL import Image, ImageEnhance
+from PIL import Image
 
 def tiff_to_png( src, dst ):
     im = Image.open(src)
